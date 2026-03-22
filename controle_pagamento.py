@@ -3,8 +3,8 @@ import datetime
 class Pagamento:
     def __init__(self, pagador, categoria, curso, valor):
         self.pagador = pagador
-        self.categoria = categoria  # Aluno, Servidor ou Professor [cite: 14]
-        self.curso = curso          # IA ou ESG [cite: 14]
+        self.categoria = categoria  # Aluno, Servidor ou Professor
+        self.curso = curso          # IA ou ESG
         self.valor = valor
         self.data_hora = datetime.datetime.now()
         self.proximo = None
